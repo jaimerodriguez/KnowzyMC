@@ -54,7 +54,7 @@ namespace Knowzy
             Distribute.ReleaseAvailable = OnReleaseAvailable;
 #endif
 
-            string secret = Xamarin.Forms.Device.OnPlatform<string>("1ed68692-9324-44c3-8088-989287af52ba", "d4db4baf-e20e-4ea9-b788-6cd572a796d7", "8ed7d024-dd9e-4f33-8674-ad5f2e684472");
+            string secret = Xamarin.Forms.Device.OnPlatform<string>("1ed68692-9324-44c3-8088-989287af52ba", "8ed7d024-dd9e-4f33-8674-ad5f2e684472", "d4db4baf-e20e-4ea9-b788-6cd572a796d7" );
             
             MobileCenter.Start(secret ,
                    typeof(Analytics)
